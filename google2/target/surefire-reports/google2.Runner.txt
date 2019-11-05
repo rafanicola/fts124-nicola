@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: google2.Runner
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 6, Skipped: 7, Time elapsed: 41.457 s <<< FAILURE! - in google2.Runner
+Scenario: Busca Termo Unico com Enter  Time elapsed: 6.676 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\ponto top\fds124-workspace\google2\drivers\chrome\78\chromedriver_win32\chromedriver.exe
+
+Scenario: Busca Termo Unico com Enter  Time elapsed: 7.543 s  <<< ERROR!
+java.lang.NullPointerException
+
+Scenario: Busca Termo Unico com Enter  Time elapsed: 28.316 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\ponto top\fds124-workspace\google2\drivers\chrome\78\chromedriver_win32\chromedriver.exe
+
+Scenario: Busca Termo Unico com Enter  Time elapsed: 29.058 s  <<< ERROR!
+java.lang.NullPointerException
+
+Cenario: Busca com sucesso por uma unica palavra  Time elapsed: 3.375 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\ponto top\fds124-workspace\google2\drivers\chrome\78\chromedriver_win32\chromedriver.exe
+
+Funcionalidade: Buscar por termo  Time elapsed: 3.458 s  <<< ERROR!
+java.lang.NullPointerException
+
