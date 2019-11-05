@@ -34,7 +34,7 @@ public class consultarPO {
 	public void Print(String nomePrint) throws IOException {
 		File foto = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(foto,
-				new File("C:\\Users\\ponto top\\fds124-workspace\\google2\\target\\prints\\" + pastaPrint + "\\" + nomePrint + ".png"));
+				new File("C:\\Users\\ponto top\\fts124-workspace\\google2\\target\\prints\\" + pastaPrint + "\\" + nomePrint + ".png"));
 
 	}
 
@@ -42,7 +42,7 @@ public class consultarPO {
 	public void Iniciar() {
 		url = "https://www.google.com.br";
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\rafaelnicola\\fds124-workspace\\google2\\drivers\\chrome\\78\\chromedriver_win32\\chromedriver.exe");
+				"C:\\Users\\rafaelnicola\\fts124-workspace\\google2\\drivers\\chrome\\78\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(30000, TimeUnit.MILLISECONDS);
 		
